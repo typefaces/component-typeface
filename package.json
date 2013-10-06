@@ -1,6 +1,6 @@
 {
   "name": "component-typeface",
-  "repository": "git://github.com/ianstormtaylor/component-typeface.git",
+  "repository": "git://github.com/typefaces/component-typeface.git",
   "version": "0.0.1",
   "license": "MIT",
   "description": "A component command to create a typeface component package via prompts from the command line.",
