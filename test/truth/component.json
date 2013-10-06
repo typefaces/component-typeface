@@ -1,0 +1,13 @@
+{
+  "name": "family-name",
+  "repo": "typefaces/family-name",
+  "description": "The Family Name typeface. ",
+  "version": "0.0.1",
+  "license": "MIT",
+  "styles": ["index.css"],
+  "fonts": [
+    "fonts/family-name.eot",
+    "fonts/family-name.ttf",
+    "fonts/family-name.woff"
+  ]
+}

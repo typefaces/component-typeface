@@ -1,0 +1,22 @@
+{
+  "name": "component-typeface",
+  "repository": "git://github.com/ianstormtaylor/component-typeface.git",
+  "version": "0.0.1",
+  "license": "MIT",
+  "description": "A component command to create a typeface component package via prompts from the command line.",
+  "keywords": [
+    "component",
+    "command",
+    "plugin",
+    "font",
+    "typeface"
+  ],
+  "dependencies": {
+    "commander": "1.0.5",
+    "mkdirp": "~0.3.4",
+    "handlebars": "~1.0.12",
+    "to-slug-case": "~0.1.2",
+    "findit": "~1.1.0",
+    "moment": "~2.2.1"
+  }
+}
