@@ -1,5 +1,4 @@
-
-# component-type
+# component-typeface
 
   A component command to create a typeface component package via prompts from the command line.
 
