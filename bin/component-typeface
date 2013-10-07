@@ -9,6 +9,7 @@ var moment = require('moment');
 var path = require('path');
 var program = require('commander');
 var slug = require('to-slug-case');
+var title = require('to-title-case');
 
 
 /**
@@ -128,10 +129,12 @@ function parse (options) {
   if (!options.ttf) throw new Error('Must provide an .ttf font file.');
   if (!options.eot) throw new Error('Must provide an .eot font file.');
 
-  options.weight = options.weight || 'normal';
-  options.style = options.style || 'normal';
+  options.family = title(options.family);
+  options.name = title(options.name);
   options.familySlug = slug(options.family);
   options.nameSlug = slug(options.name);
+  options.weight = options.weight || 'normal';
+  options.style = options.style || 'normal';
   options.date = moment().format('MMMM Do, YYYY');
   options.dashes = new Array(options.date.length+1).join('-');
 }

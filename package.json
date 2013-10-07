@@ -1,7 +1,7 @@
 {
   "name": "component-typeface",
   "repository": "git://github.com/typefaces/component-typeface.git",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "license": "MIT",
   "description": "A component command to create a typeface component package via prompts from the command line.",
   "keywords": [
@@ -13,11 +13,12 @@
   ],
   "dependencies": {
     "commander": "1.0.5",
-    "mkdirp": "~0.3.4",
-    "handlebars": "~1.0.12",
-    "to-slug-case": "~0.1.2",
     "findit": "~1.1.0",
-    "moment": "~2.2.1"
+    "handlebars": "~1.0.12",
+    "mkdirp": "~0.3.4",
+    "moment": "~2.2.1",
+    "to-slug-case": "~0.1.2",
+    "to-title-case": "~0.1.2"
   },
   "bin": {
     "component-typeface": "bin/component-typeface"
